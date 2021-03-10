@@ -1,0 +1,14 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ */
+.wp-block-forte-press-flow-columns p:first-of-type {
+  margin-top: 0; }
+
+.wp-block-forte-press-flow-columns .block-editor-block-list__layout *:first-child {
+  margin-top: 0; }
