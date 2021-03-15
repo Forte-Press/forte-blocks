@@ -10,3 +10,4 @@
  */
 
 import './flow-columns/flow-columns.js';
+import'./fancy-list/fancy-list.js';

@@ -1,0 +1,13 @@
+.wp-block-forte-press-fancy-list {
+    
+  counter-reset: my-awesome-counter;
+    li {
+        counter-increment: my-awesome-counter;
+        list-style: none;
+        &::before {
+            content: counter(my-awesome-counter) ". ";
+  color: red;
+  font-weight: bold;
+        }
+    }
+}

@@ -12,3 +12,18 @@
 
 .wp-block-forte-press-flow-columns .block-editor-block-list__layout *:first-child {
   margin-top: 0; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-forte-press-fancy-list {
+  counter-reset: my-awesome-counter; }
+  .wp-block-forte-press-fancy-list li {
+    counter-increment: my-awesome-counter;
+    list-style: none; }
+    .wp-block-forte-press-fancy-list li::before {
+      content: counter(my-awesome-counter) ". ";
+      color: red;
+      font-weight: bold; }
